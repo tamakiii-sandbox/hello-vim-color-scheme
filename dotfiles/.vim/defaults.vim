@@ -31,12 +31,6 @@ if v:version > 730
   set wildignorecase
 endif
 
-set backupdir=/tmp/vim/backup
-set directory=/tmp/vim/swapfile
-if v:version > 730
-  set undodir=~/tmp/vim/undo
-endif
-
 set wildmenu
 set wildmode=list:longest,full
 set hlsearch
